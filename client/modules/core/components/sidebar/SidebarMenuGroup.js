@@ -10,7 +10,7 @@ const SidebarMenuGroup = ({children, path, title}) =>
           {title}
           <span/>
         </a>
-        <ul className="treeview-menu">
+        <ul className="treeview-menu" href={path}>
           {children}
         </ul>
       </li>
